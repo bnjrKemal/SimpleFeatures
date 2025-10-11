@@ -1,0 +1,46 @@
+name: SimpleFeatures
+version: '1.0'
+main: org.bnjrKemal.simpleFeatures.SimpleFeatures
+api-version: '1.21'
+
+commands:
+  gm:
+    description: Change your gamemode
+    usage: /<command> <mode>
+    permission: simplefeatures.gm
+  god:
+    description: Enable or disable god mode
+    usage: /<command>
+    permission: simplefeatures.god
+  tpa:
+    description: Request a teleport
+    usage: /<command> <player>
+    permission: simplefeatures.tpa
+  tpaccept:
+    description: Accept a teleport request
+    usage: /<command>
+    permission: simplefeatures.tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /<command>
+    permission: simplefeatures.tpdeny
+  fix:
+    description: Repair items
+    usage: /<command>
+    permission: simplefeatures.fix
+  openinv:
+    description: Open a player's inventory
+    usage: /<command> <player>
+    permission: simplefeatures.openinv
+  enderchest:
+    description: Open your ender chest
+    usage: /<command>
+    permission: simplefeatures.enderchest
+  trash:
+    description: Delete items in hand
+    usage: /<command>
+    permission: simplefeatures.trash
+  sfreload:
+    description: Reload the plugin
+    usage: /<command>
+    permission: simplefeatures.reload
